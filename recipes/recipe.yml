@@ -18,4 +18,8 @@ modules:
     install:
       - 1password
 
+  - type: script
+    snippets:
+      - mkdir /nix
+
   - type: signing
